@@ -1,0 +1,43 @@
+/* Add your own styles */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #04fac5;
+    color: #000000;
+    grid-column: 1 /span 2;
+    padding: .8em;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-collapse: collapse;
+    width: 100%;
+    border: none;
+}
+
+table tr:nth-child(even){
+    background-color: #ececec;
+}
+
+table th{
+    padding: 1em;
+    font-weight: bold;
+}
+table td, tr, th{
+    border: .1em solid #c5c5c5;
+    padding: .5em;
+}
